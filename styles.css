@@ -1,12 +1,14 @@
 nav{
+    display:inline-flex;
     float: right;
-    padding: 12px;
+    padding:0px 20px;
     width: 16.66%;
-    display: flex;
+    text-align:right;
+    margin-top:50px;
 }
 
 .backGroundOne{
-    margin:0%;
+    margin:-8px;
     background: url("./assets/gradient-violet-bg.jpg");
     min-height: auto;
     padding-bottom: 100px;
@@ -18,16 +20,101 @@ nav{
     height:auto;
 }
 
-.firstBoxTitle{
+.about{
+    padding-right:10px;
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
 
+.help{
+    padding-right:10px;
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.community{
+    padding-right:10px;
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.premium{
+    padding-right:10px;
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.open{
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+
+.lapTop{
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.firstBoxTitle{
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
     text-align: center;
     padding-top: 140px;
 }
 
 .firstBoxParagraph{
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
     max-width: 560px;
     text-align:center;
     margin-left: auto;
     margin-right: auto;
+}
 
+.secondTitle{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color:#434146;
+    font-size: 24px;
+    text-align:center;
+    font-family: "Roboto", sans-serif;
+}
+
+.logos{
+    display:grid;
+    margin: 0px 30px 75px;
+    align-items: center;
+}
+
+.wired{
+    display:grid;
+}
+
+.nerdist{
+    display:grid;
+}
+
+.yahoo{
+    display: grid;
+}
+
+.eveningStandard{
+    display: grid;
+}
+
+.BBC{
+    display: grid;
+}
+
+.dailyMail{
+    display:grid;
 }
