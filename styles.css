@@ -2,7 +2,6 @@ nav{
     display:inline-flex;
     float: right;
     padding:0px 20px;
-    width: 16.66%;
     text-align:right;
     margin-top:50px;
 }
@@ -54,6 +53,7 @@ nav{
     color:white;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
+    border: thin solid white;
 }
 
 .lapTop{
